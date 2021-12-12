@@ -10,6 +10,7 @@
         android:id="@+id/tv_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_margin"
         android:text="@string/my_fake_name"
         android:textAlignment="center"
         style="@style/NameStyle"
