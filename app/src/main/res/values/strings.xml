@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">About me</string>
     <string name="my_fake_name">My Fake Name</string>
+    <string name="star_image">Star image</string>
 </resources>
