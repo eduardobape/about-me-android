@@ -66,7 +66,7 @@
                 style="@style/NameStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:lineSpacingMultiplier="@dimen/lineSpacingBio"
+                android:lineSpacingMultiplier="@dimen/line_spacing_bio"
                 android:text="@string/bio" />
 
         </LinearLayout>
