@@ -7,4 +7,5 @@
     <color name="blue_dark">#5d99c6</color>
     <color name="black">#ff000000</color>
     <color name="white">#ffffffff</color>
+    <color name="hint_edit_text">#B6B6B6</color>
 </resources>
