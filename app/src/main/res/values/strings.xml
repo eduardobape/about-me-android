@@ -2,4 +2,23 @@
     <string name="app_name">About me</string>
     <string name="my_fake_name">My Fake Name</string>
     <string name="star_image">Star image</string>
+    <string name="bio">Hi, my name is My Fake Name.
+    I remember the time when I saw Android for the first time on an online blog. It was Android 1.6.
+    At that moment I said that this Operating System was going to be awesome and widely spread.
+    Then I owned a traditional phone with a super small color screen, not a smartphone. It was a
+    Sony Ericsson T610.
+    It is awesome how much phones have been improved since then, becoming better and better.
+    From about four year ago, I decided to become an Android developer.
+    I had been programming in Python for the last two years before this, but when I had the opportunity
+    to change to Android I did not doubt it.
+    I had already been programming in Java for web and desktop apps, but Android was a completely
+    different world for me.
+    As the years went by, I started to realize that Java was not the perfect programming language for
+    Android. It seemed a language which was not fit with a platform evolving so fast.
+    Furthermore, I started to be tired of this language and the way it forced me to program.
+    Everything became worse when I realized that Android was not going to support many modern features
+    of the upcoming Java versions like Java 8 or 11.
+    Suddenly, Google gave us good news. Kotlin was going to be the first language for Android.
+    Kotlin and Jetpack libraries have given a boost to Android development. Both have given me back
+    the enthusiasm to develop great apps for Android platform.</string>
 </resources>
