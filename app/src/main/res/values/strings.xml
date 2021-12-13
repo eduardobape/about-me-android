@@ -21,4 +21,5 @@
     Suddenly, Google gave us good news. Kotlin was going to be the first language for Android.
     Kotlin and Jetpack libraries have given a boost to Android development. Both have given me back
     the enthusiasm to develop great apps for Android platform.</string>
+    <string name="et_hint_nickname">What is your nickname?</string>
 </resources>
