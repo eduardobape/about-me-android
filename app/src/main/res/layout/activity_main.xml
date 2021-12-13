@@ -22,9 +22,10 @@
 
     <EditText
         android:id="@+id/et_nickname"
-        style="@style/NameStyle"
+        style="@style/NickName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding"
         android:hint="@string/et_hint_nickname"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
