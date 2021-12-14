@@ -4,8 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:paddingTop="@dimen/padding"
     android:paddingStart="@dimen/padding"
+    android:paddingTop="@dimen/padding"
     android:paddingEnd="@dimen/padding"
     tools:context=".MainActivity">
 
@@ -24,7 +24,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/layout_margin"
         android:hint="@string/et_hint_nickname"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
 
     <ImageView
         android:id="@+id/iv_star"
