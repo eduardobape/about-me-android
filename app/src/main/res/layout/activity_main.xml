@@ -52,19 +52,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/iv_star">
 
-        <LinearLayout
+        <TextView
+            style="@style/NameStyle"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-
-            <TextView
-                style="@style/NameStyle"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:lineSpacingMultiplier="@dimen/line_spacing_bio"
-                android:text="@string/bio" />
-
-        </LinearLayout>
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="@dimen/line_spacing_bio"
+            android:text="@string/bio" />
 
     </androidx.core.widget.NestedScrollView>
 
