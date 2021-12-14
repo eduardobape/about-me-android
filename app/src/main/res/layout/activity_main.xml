@@ -17,6 +17,15 @@
         android:text="@string/my_fake_name"
         android:textAlignment="center" />
 
+    <TextView
+        android:id="@+id/tv_nickname"
+        style="@style/NameStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_margin_32"
+        android:textAlignment="center"
+        android:visibility="gone" />
+
     <EditText
         android:id="@+id/et_nickname"
         style="@style/NickName"
@@ -26,6 +35,14 @@
         android:hint="@string/et_hint_nickname"
         android:inputType="textPersonName"
         android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/b_show_nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/layout_margin"
+        android:text="@string/done" />
 
     <ImageView
         android:id="@+id/iv_star"
