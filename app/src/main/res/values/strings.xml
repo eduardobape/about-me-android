@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">About me</string>
-    <string name="my_fake_name">My Fake Name</string>
     <string name="star_image">Star image</string>
     <string name="bio">Hi, my name is My Fake Name.
     I remember the time when I saw Android for the first time on an online blog. It was Android 1.6.
