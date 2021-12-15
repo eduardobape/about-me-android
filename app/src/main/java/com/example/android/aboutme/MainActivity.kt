@@ -22,10 +22,12 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showNickName() {
-        binding.etNickname.visibility = View.GONE
-        binding.bShowNickname.visibility = View.GONE
-        binding.tvNickname.text = binding.etNickname.text.toString()
-        binding.tvNickname.visibility = View.VISIBLE
+        binding.apply {
+            etNickname.visibility = View.GONE
+            bShowNickname.visibility = View.GONE
+            tvNickname.text = binding.etNickname.text.toString()
+            tvNickname.visibility = View.VISIBLE
+        }
         val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
         imm.hideSoftInputFromWindow(binding.root.windowToken, 0)
     }
