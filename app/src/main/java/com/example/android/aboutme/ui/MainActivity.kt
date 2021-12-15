@@ -1,4 +1,4 @@
-package com.example.android.aboutme
+package com.example.android.aboutme.ui
 
 import android.content.Context
 import android.os.Bundle
@@ -6,6 +6,7 @@ import android.view.View
 import android.view.inputmethod.InputMethodManager
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
+import com.example.android.aboutme.R
 import com.example.android.aboutme.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

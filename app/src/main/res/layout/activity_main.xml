@@ -8,7 +8,7 @@
         android:paddingStart="@dimen/padding"
         android:paddingTop="@dimen/padding"
         android:paddingEnd="@dimen/padding"
-        tools:context=".MainActivity">
+        tools:context=".ui.MainActivity">
 
         <TextView
             android:id="@+id/tv_name"
